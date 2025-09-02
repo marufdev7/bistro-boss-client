@@ -1,8 +1,15 @@
 import { createBrowserRouter, } from "react-router-dom";
+import Main from "../Layout/Main";
 
 export const router = createBrowserRouter([
     {
         path: "/",
-        element: <h1>This is Maruf</h1>
+        element: <Main />,
+        children: [
+            {
+                path: '/',
+                
+            }
+        ]
     },
 ]);
