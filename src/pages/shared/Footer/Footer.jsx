@@ -4,9 +4,8 @@ import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 const Footer = () => {
     return (
         <footer className="text-white">
-            {/* Main footer content */}
+
             <div className="flex flex-col lg:flex-row">
-                {/* Contact Us Section - Darker Background */}
                 <div className="bg-slate-700 flex-1 px-8 py-16 text-center">
                     <h3 className="text-2xl font-normal mb-8 tracking-[0.2em]">CONTACT US</h3>
                     <div className="space-y-3 text-gray-300 text-base">
@@ -16,7 +15,7 @@ const Footer = () => {
                         <p>Sat - Sun: 10:00 - 23:00</p>
                     </div>
                 </div>
-                {/* Follow Us Section - Lighter Background */}
+
                 <div className="bg-slate-800 flex-1 px-8 py-16 text-center">
                     <h3 className="text-2xl font-normal mb-8 tracking-[0.2em]">Follow US</h3>
                     <p className="text-gray-300 mb-8 text-base">Join us on social media</p>
@@ -48,7 +47,7 @@ const Footer = () => {
             <div className="bg-slate-900 py-4">
                 <div className="text-center">
                     <p className="text-gray-400 text-sm">
-                        Copyright © CulinaryCloud. All rights reserved.
+                        Copyright © {new Date().getFullYear()} CulinaryCloud. All rights reserved.
                     </p>
                 </div>
             </div>
