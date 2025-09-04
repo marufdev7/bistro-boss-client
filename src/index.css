@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Center carousel thumbnails */
+.carousel .thumbs-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel .thumbs {
+  display: flex;
+  justify-content: center;
+}
