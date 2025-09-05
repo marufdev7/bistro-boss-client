@@ -28,23 +28,23 @@ const Category = () => {
             >
                 <SwiperSlide className='flex flex-col'>
                     <img src={slide1} alt="" />
-                    <h3 className='text-4xl uppercase text-center text-gray-200 -mt-12'>Salads</h3>
+                    <h3 className='text-2xl md:text-4xl uppercase text-center text-gray-200 -mt-12 '>Salads</h3>
                 </SwiperSlide>
                 <SwiperSlide className='flex flex-col'>
                     <img src={slide2} alt="" />
-                    <h3 className='text-4xl uppercase text-center text-gray-200 -mt-12'>Pizzas</h3>
+                    <h3 className='text-2xl md:text-4xl uppercase text-center text-gray-200 -mt-12 '>Pizzas</h3>
                 </SwiperSlide>
                 <SwiperSlide className='flex flex-col'>
                     <img src={slide3} alt="" />
-                    <h3 className='text-4xl uppercase text-center text-gray-200 -mt-12'>Soups</h3>
+                    <h3 className='text-2xl md:text-4xl uppercase text-center text-gray-200 -mt-12'>Soups</h3>
                 </SwiperSlide>
                 <SwiperSlide className='flex flex-col'>
                     <img src={slide4} alt="" />
-                    <h3 className='text-4xl uppercase text-center text-gray-200 -mt-12'>Desserts</h3>
+                    <h3 className='text-2xl md:text-4xl uppercase text-center text-gray-200 -mt-12'>Desserts</h3>
                 </SwiperSlide>
                 <SwiperSlide className='flex flex-col'>
                     <img src={slide5} alt="" />
-                    <h3 className='text-4xl uppercase text-center text-gray-200 -mt-12'>Salads</h3>
+                    <h3 className='text-2xl md:text-4xl uppercase text-center text-gray-200 -mt-12'>Salads</h3>
                 </SwiperSlide>
             </Swiper>
         </div>
