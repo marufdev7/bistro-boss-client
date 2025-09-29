@@ -8,7 +8,7 @@ const IntroCard = () => {
             style={{ backgroundImage: `url(${img1})` }}
         >
             <div className="bg-white/80 backdrop-blur-sm p-10 rounded-2xl shadow-xl text-center max-w-2xl">
-                <h2 className="text-4xl font-serif font-bold text-gray-800 drop-shadow-xl">
+                <h2 className="text-4xl font-serif font-thin text-gray-800 drop-shadow-xl">
                     Bistro Boss
                 </h2>
                 <p className="mt-4 text-gray-700 leading-relaxed">

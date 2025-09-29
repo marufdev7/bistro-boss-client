@@ -1,0 +1,8 @@
+.featured-section {
+  position: relative;
+  background-image: url('../../../assets/home/featured.jpg');
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(0deg, rgba(21, 21, 21, 0.70) 0%, rgba(21, 21, 21, 0.70) 100%), url('../../../assets/home/featured.jpg');
+  background-blend-mode: overlay;
+}
