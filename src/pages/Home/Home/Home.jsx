@@ -4,6 +4,7 @@ import Category from '../Category/Category';
 import IntroCard from '../IntroCard/IntroCard';
 import PopularMenu from '../PopularMenu/PopularMenu';
 import Featured from '../Featured/Featured';
+import Testimonials from '../Testimonials/Testimonials';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <IntroCard />
             <PopularMenu />
             <Featured />
+            <Testimonials />
         </div>
     );
 };
