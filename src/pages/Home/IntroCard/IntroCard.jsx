@@ -4,10 +4,10 @@ import img1 from '../../../assets/home/chef-service.jpg'
 const IntroCard = () => {
     return (
         <div
-            className="relative bg-cover bg-center h-[500px] flex items-center justify-center"
+            className="relative bg-cover bg-fixed bg-center h-[500px] flex items-center justify-center"
             style={{ backgroundImage: `url(${img1})` }}
         >
-            <div className="bg-white/80 backdrop-blur-sm p-10 rounded-2xl shadow-xl text-center max-w-2xl">
+            <div className="bg-white/70 backdrop-blur-sm p-10 rounded-2xl shadow-xl text-center max-w-2xl">
                 <h2 className="text-4xl font-serif font-thin text-gray-800 drop-shadow-xl">
                     Bistro Boss
                 </h2>
