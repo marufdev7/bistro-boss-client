@@ -10,6 +10,7 @@ const FoodCard = ({ item }) => {
                 alt="Caesar Salad"
                 className='rounded-md'
             />
+            <p className='font-bold text-white bg-black/80 p-2 rounded absolute right-6 top-6'>${price}</p>
             <div className="card-body items-center text-center">
                 <h2 className="card-title">{name}</h2>
                 <p>{recipe}</p>
