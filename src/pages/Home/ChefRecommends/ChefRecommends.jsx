@@ -9,8 +9,8 @@ const ChefRecommends = () => {
                 subHeading={"chef recommends"}
                 heading={'Should Try'}
             />
-            <div className='md:flex md:gap-4 justify-between'>
-                <div className="card bg-base-300 mb-5 shadow-xl p-4">
+            <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-3 place-items-center'>
+                <div className="card bg-base-300 hover:bg-base-200 transition-colors duration-[300ms] mb-5 shadow-xl p-4">
                     <img
                         src={img}
                         alt="Caesar Salad"
@@ -24,7 +24,7 @@ const ChefRecommends = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card bg-base-300 mb-5 shadow-xl p-4">
+                <div className="card bg-base-300 hover:bg-base-200 transition-colors duration-[300ms] mb-5 shadow-xl p-4">
                     <img
                         src={img}
                         alt="Caesar Salad"
@@ -38,7 +38,7 @@ const ChefRecommends = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card bg-base-200 mb-5 shadow-xl p-4">
+                <div className="card bg-base-300 hover:bg-base-200 transition-colors duration-[300ms] mb-5 shadow-xl p-4">
                     <img
                         src={img}
                         alt="Caesar Salad"
