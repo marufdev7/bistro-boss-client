@@ -6,9 +6,9 @@ import { NavLink } from 'react-router-dom';
 const NavBar = () => {
     const NavBarLinks = <>
         <li><NavLink to='/' className='hover:text-yellow-400'>Home</NavLink></li>
-        <li><NavLink to='/dashboard' className='hover:text-yellow-400'>Dashboard</NavLink></li>
+        {/* <li><NavLink to='/dashboard' className='hover:text-yellow-400'>Dashboard</NavLink></li> */}
         <li><NavLink to='/menu' className='hover:text-yellow-400'>Our Menu</NavLink></li>
-        <li><NavLink to='/order' className='hover:text-yellow-400'>Order Food</NavLink></li>
+        <li><NavLink to='/order/dessert' className='hover:text-yellow-400'>Order Food</NavLink></li>
         <li><NavLink to='/contact-us' className='hover:text-yellow-400'>Contact Us</NavLink></li>
     </>
     return (
