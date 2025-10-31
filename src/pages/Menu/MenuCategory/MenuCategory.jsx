@@ -13,7 +13,7 @@ const MenuCategory = ({ items, title }) => {
                     />)
                 }
             </div>
-            <Link to={`/order/${title}`}><button className='btn btn-outline text-yellow-600 border-0 uppercase border-b-4 w-72 mb-8'>ORDER YOUR FAVOURITE FOOD</button></Link>
+            <Link to={`/order/${title}`}><button className='btn btn-outline text-yellow-600 bg-black/10 border-0 uppercase border-b-4 w-72 mb-8'>ORDER YOUR FAVOURITE FOOD</button></Link>
         </div>
     );
 };
