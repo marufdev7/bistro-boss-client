@@ -1,0 +1,26 @@
+.custom-swiper .custom-bullet {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #d4d4d8;
+    color: #374151;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    opacity: 0.7;
+}
+
+.custom-swiper .custom-bullet:hover {
+    background-color: #71717b;
+    color: white;
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.custom-swiper .custom-bullet.swiper-pagination-bullet-active {
+    background-color: #BB8506;
+    color: white;
+    opacity: 1;
+}
