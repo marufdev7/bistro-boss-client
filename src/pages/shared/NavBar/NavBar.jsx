@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaUser } from 'react-icons/fa6';
 import { RiMenu2Fill } from 'react-icons/ri';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const NavBar = () => {
     const NavBarLinks = <>
@@ -35,14 +35,17 @@ const NavBar = () => {
                         {NavBarLinks}
                     </ul>
                 </div>
-                <div className="navbar-end">
+                <Link
+                    to='/login'
+                    className="navbar-end"
+                >
                     <button
                         className="flex items-center gap-2 text-white hover:text-yellow-400 hover:bg-gray-700 px-3 py-2 text-base font-medium transition-colors duration-200 tracking-wide rounded-lg"
                     >
                         <FaUser size={18} />
-                        SIGN OUT
+                        Login
                     </button>
-                </div>
+                </Link>
             </div>
         </>
     );
